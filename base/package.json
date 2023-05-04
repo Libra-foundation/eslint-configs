@@ -1,0 +1,20 @@
+{
+  "name": "@libra/eslint-base",
+  "version": "0.0.0",
+  "description": "Eslint barebone configuration. Not speciffically tailored for either JS or TS.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Libra-foundation/eslint-configs.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Libra Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Libra-foundation/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/Libra-foundation/eslint-configs#readme"
+}
