@@ -1,5 +1,5 @@
 {
-  "name": "@libra/typescript-eslint-defaults",
+  "name": "@libra-foundation/typescript-eslint-defaults",
   "version": "0.0.0",
   "description": "Default configurations for Eslint adapted to typescript",
   "main": "index.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@libra/typescript-eslint-naming",
+  "name": "@libra-foundation/typescript-eslint-naming",
   "version": "0.0.0",
   "description": "Eslint configuration used to enforce naming conventions",
   "main": "index.js",
