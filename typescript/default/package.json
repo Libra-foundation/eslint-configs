@@ -11,6 +11,12 @@
     "eslint",
     "eslintconfig"
   ],
+  "peerDependencies": {
+    "@libra-foundation/typescript-eslint-base" : ">=0",
+    "@libra-foundation/typescript-eslint-naming" : ">=0",
+    "@typescript-eslint/eslint-plugin": ">=5.43",
+    "@typescript-eslint/parser": ">=5.43"
+  },
   "author": "Libra Foundation",
   "license": "MIT",
   "bugs": {

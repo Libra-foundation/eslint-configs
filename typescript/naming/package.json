@@ -1,7 +1,7 @@
 {
   "name": "@libra-foundation/typescript-eslint-naming",
   "version": "0.0.0",
-  "description": "Eslint configuration used to enforce naming conventions",
+  "description": "Eslint configuration which contains our naming conventions. Does not hold any other kind of rules.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -11,6 +11,10 @@
     "eslint",
     "eslintconfig"
   ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.43",
+    "@typescript-eslint/parser": ">=5.43"
+  },
   "author": "Libra Foundation",
   "license": "MIT",
   "bugs": {
