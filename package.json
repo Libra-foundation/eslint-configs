@@ -1,7 +1,7 @@
 {
-  "name": "@libra-foundation/typescript-eslint-base",
+  "name": "@libra-foundation/eslint-config",
   "version": "0.0.0",
-  "description": "Base configuration for ESlint adapted to typescript. Does not include naming conventions.",
+  "description": "Eslint barebone configuration. Not speciffically tailored for either JS or TS.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -12,9 +12,8 @@
     "eslintconfig"
   ],
   "peerDependencies": {
-    "@libra-foundation/eslint-base" : ">=0",
-    "@typescript-eslint/eslint-plugin": ">=5.43",
-    "@typescript-eslint/parser": ">=5.43"
+    "eslint": ">=8.28",
+    "eslint-plugin-eslint-comments": ">=3.2"
   },
   "author": "Libra Foundation",
   "license": "MIT",

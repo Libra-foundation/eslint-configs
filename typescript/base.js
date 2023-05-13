@@ -2,7 +2,7 @@ module.exports = {
     "plugins": ["@typescript-eslint"],
     "extends": [
         "plugin:eslint-comments/recommended",
-        "@libra-foundation/eslint-base"
+        "@libra-foundation/eslint-config"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
