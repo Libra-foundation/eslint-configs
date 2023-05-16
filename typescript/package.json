@@ -1,7 +1,7 @@
 {
-  "name": "@libra-foundation/typescript-eslint-defaults",
+  "name": "@libra-foundation/eslint-config-typescript",
   "version": "0.0.0",
-  "description": "Default configurations for Eslint adapted to typescript",
+  "description": "Grouped configs we use for typescript",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -11,6 +11,11 @@
     "eslint",
     "eslintconfig"
   ],
+  "peerDependencies": {
+    "@libra-foundation/eslint-config" : ">=0",
+    "@typescript-eslint/eslint-plugin": ">=5.43",
+    "@typescript-eslint/parser": ">=5.43"
+  },
   "author": "Libra Foundation",
   "license": "MIT",
   "bugs": {

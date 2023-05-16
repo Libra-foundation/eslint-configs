@@ -1,5 +1,5 @@
 {
-  "name": "@libra-foundation/eslint-base",
+  "name": "@libra-foundation/eslint-config",
   "version": "0.0.0",
   "description": "Eslint barebone configuration. Not speciffically tailored for either JS or TS.",
   "main": "index.js",
@@ -12,9 +12,8 @@
     "eslintconfig"
   ],
   "peerDependencies": {
-    "eslint": "^8.28",
-    "eslint-plugin-eslint-comments": "^3.2",
-    "eslint-plugin-jest": "^27.2"
+    "eslint": ">=8.28",
+    "eslint-plugin-eslint-comments": ">=3.2"
   },
   "author": "Libra Foundation",
   "license": "MIT",
