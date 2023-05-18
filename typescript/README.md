@@ -1,2 +1,2 @@
 # eslint-configs
-All the modules containing the eslint configuration used by the libra foundation
+All the modules containing the Eslint configuration used by the Libra foundation
