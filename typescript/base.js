@@ -10,7 +10,7 @@ module.exports = {
         "sourceType": "module",
         "project": "./tsconfig.json"
     },
-    "rules": {
+      "rules": {
         "eslint-comments/require-description": [
           "error",
           {"ignore": ["eslint-enable"]}
@@ -50,6 +50,10 @@ module.exports = {
           }
         ],
         "@typescript-eslint/class-literal-property-style": "warn",
+        
+        "class-methods-use-this": "off",
+        "@typescript-eslint/class-methods-use-this": "error",
+
         "@typescript-eslint/consistent-generic-constructors": "warn",
         "@typescript-eslint/consistent-indexed-object-style": "warn",
         "@typescript-eslint/consistent-type-assertions": "warn",
