@@ -52,7 +52,7 @@ module.exports = {
         "@typescript-eslint/class-literal-property-style": "warn",
         
         "class-methods-use-this": "off",
-        "@typescript-eslint/class-methods-use-this": "error",
+        "@typescript-eslint/class-methods-use-this": ["error", {"ignoreOverrideMethods": true}],
 
         "@typescript-eslint/consistent-generic-constructors": "warn",
         "@typescript-eslint/consistent-indexed-object-style": "warn",
