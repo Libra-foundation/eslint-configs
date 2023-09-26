@@ -7,8 +7,11 @@
     "type": "git",
     "url": "git+https://github.com/Libra-foundation/eslint-configs.git"
   },
+  "scripts": {
+    "prepare": "husky install"
+  },
   "files": [
-  	"index.js"
+    "index.js"
   ],
   "keywords": [
     "eslint",
@@ -17,6 +20,17 @@
   "peerDependencies": {
     "eslint": ">=8.28",
     "eslint-plugin-eslint-comments": ">=3.2"
+  },
+  "devDependencies": {
+    "lint-staged": "^13.2.2",
+    "husky": "^8.0.2",
+    "prettier": "^3.0.1"
+  },
+  "lint-staged": {
+    "*.{md,js,tsx,json,html}": "prettier --write"
+  },
+  "prettier": {
+    "bracketSpacing": false
   },
   "author": "Libra Foundation",
   "license": "MIT",
