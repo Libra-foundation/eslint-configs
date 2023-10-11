@@ -1,18 +1,23 @@
 {
   "name": "@libra-foundation/eslint-config-typescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grouped configs we use for typescript",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Libra-foundation/eslint-configs.git"
   },
+  "files": [
+    "index.js",
+    "base.js",
+    "naming.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "peerDependencies": {
-    "@libra-foundation/eslint-config" : ">=0",
+    "@libra-foundation/eslint-config": ">=0",
     "@typescript-eslint/eslint-plugin": ">=6.2",
     "@typescript-eslint/parser": ">=6.2"
   },
